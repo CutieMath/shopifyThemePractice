@@ -3,16 +3,18 @@
 body {
   line-height: 1.5;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Press Start 2P', cursive;
   -webkit-font-smoothing: antialiased;
+  color: #D291BC;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
+  color: #D291BC;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Press Start 2P', cursive;
   color: #757575;
   font-size: 15px;
 }
@@ -20,7 +22,6 @@ p {
 a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
-  color: #000;
 }
 
 input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
@@ -34,7 +35,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 
 input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="tel"]:focus {
   box-shadow: none;
-  border: 1px solid #000;
+  border: 1px solid #D291BC;
 }
 
 ul {
@@ -46,6 +47,7 @@ ul {
   margin-bottom: 30px;
   font-weight: 100;
   border-bottom: 1px solid #dedede;
+  color: #D291BC;
 }
 
 .req {
@@ -79,11 +81,11 @@ p.with-icons i {
 
 .form-control:focus {
   box-shadow: none;
-  border: 1px solid #000;
+  border: 1px solid #D291BC;
 }
 
 .btn-main, .btn-solid-border, .btn-transparent, .btn-small {
-  background: #000;
+  background: #D291BC;
   color: #fff;
   display: inline-block;
   font-size: 11px;
@@ -106,20 +108,20 @@ p.with-icons i {
 }
 
 .btn-solid-border {
-  border: 1px solid #000;
+  border: 1px solid #D291BC;
   background: #fff;
-  color: #000;
+  color: #D291BC;
 }
 
 .btn-transparent {
   background: transparent;
-  color: #000;
-  border: 1px solid #000;
+  color: #D291BC;
+  border: 1px solid #D291BC;
 }
 
 .btn-transparent:hover {
   background: transparent;
-  color: #000;
+  color: #D291BC;
 }
 
 .btn-large {
@@ -176,8 +178,8 @@ p.with-icons i {
 }
 
 .nav-tabs li .nav-link.active {
-  background-color: #000;
-  border: 1px solid #000;
+  background-color: #D291BC;
+  border: 1px solid #D291BC;
   color: #ffffff;
 }
 
@@ -188,7 +190,7 @@ p.with-icons i {
 
 .nav-tabs a:hover {
   border: 1px solid transparent;
-  background: #000;
+  background: #D291BC;
   color: #fff;
 }
 
@@ -309,6 +311,10 @@ p.with-icons i {
   letter-spacing: 2px;
 }
 
+.babyTitle {
+  font-family: 'Press Start 2P', cursive;
+}
+
 /*=================================================================
   Category Banners
 ==================================================================*/
@@ -420,7 +426,7 @@ p.with-icons i {
   position: absolute;
   top: 12px;
   right: 12px;
-  background: #000;
+  background: #D291BC;
   color: #fff;
   font-size: 12px;
   padding: 4px 12px;
@@ -474,7 +480,7 @@ p.with-icons i {
 }
 
 .product-item .product-thumb .preview-meta li a:hover, .product-item .product-thumb .preview-meta li span:hover {
-  background: #000;
+  background: #D291BC;
   color: #fff;
 }
 
@@ -500,7 +506,7 @@ p.with-icons i {
 }
 
 .product-item .product-content h4 a {
-  color: #000;
+  color: #D291BC;
 }
 
 /*=================================================================
@@ -604,7 +610,7 @@ p.with-icons i {
 }
 
 .navbar-nav .dropdown .dropdown-menu a:hover {
-  background-color: #000;
+  background-color: #D291BC;
   color: #fff;
 }
 
@@ -678,7 +684,7 @@ p.with-icons i {
 }
 
 .page-header .breadcrumb li a {
-  color: #000;
+  color: #D291BC;
 }
 
 /*=================================================================
@@ -713,7 +719,7 @@ p.with-icons i {
 }
 
 .widget.widget-latest-post .media .media-heading a {
-  color: #000;
+  color: #D291BC;
   font-size: 14px;
   font-weight: 300;
 }
@@ -738,7 +744,7 @@ p.with-icons i {
 }
 
 .widget.widget-category ul li a:hover {
-  color: #000;
+  color: #D291BC;
   padding-left: 5px;
 }
 
@@ -759,8 +765,8 @@ p.with-icons i {
 
 .widget.widget-tag ul li a:hover {
   color: #fff;
-  background: #000;
-  border: 1px solid #000;
+  background: #D291BC;
+  border: 1px solid #D291BC;
 }
 
 /*=================================================================
@@ -807,7 +813,7 @@ p.with-icons i {
 }
 
 #accordion .card .card-body {
-  border-bottom: 1px solid #00000020;
+  border-bottom: 1px solid #D291BC00020;
 }
 
 /*=================================================================
@@ -823,12 +829,12 @@ p.with-icons i {
 }
 
 .single-product .breadcrumb li {
-  color: #000;
+  color: #D291BC;
   font-weight: 200;
 }
 
 .single-product .breadcrumb li a {
-  color: #000;
+  color: #D291BC;
   font-weight: 200;
 }
 
@@ -844,7 +850,7 @@ p.with-icons i {
 }
 
 .single-product .product-pagination li a {
-  color: #000;
+  color: #D291BC;
   font-weight: 200;
 }
 
@@ -862,7 +868,7 @@ p.with-icons i {
 .single-product-slider .carousel .carousel-inner .carousel-caption h1 {
   font-size: 50px;
   font-weight: 100;
-  color: #000;
+  color: #D291BC;
 }
 
 .single-product-slider .carousel .carousel-inner .carousel-caption p {
@@ -941,7 +947,7 @@ p.with-icons i {
 
 .single-product-details .product-variant span {
   width: 100px;
-  color: #000;
+  color: #D291BC;
   font-size: 13px;
   font-weight: 600;
   display: inline-block;
@@ -952,7 +958,7 @@ p.with-icons i {
   width: 130px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #000;
+  color: #D291BC;
   font-size: 12px;
   border: 1px solid #e5e5e5;
   border-radius: 0px;
@@ -965,7 +971,7 @@ p.with-icons i {
 
 .single-product-details .product-category > span {
   width: 100px;
-  color: #000;
+  color: #D291BC;
   font-size: 13px;
   font-weight: 600;
   display: inline-block;
@@ -992,7 +998,7 @@ p.with-icons i {
 
 .single-product-details .product-quantity > span {
   width: 100px;
-  color: #000;
+  color: #D291BC;
   font-size: 13px;
   font-weight: 600;
   display: inline-block;
@@ -1039,7 +1045,7 @@ p.with-icons i {
 }
 
 .product-category ul li a:hover {
-  color: #000;
+  color: #D291BC;
 }
 
 /*=================================================================
@@ -1070,7 +1076,7 @@ p.with-icons i {
 
 
 .slick-next:hover, .slick-prev:hover {
-  background: #000;
+  background: #D291BC;
 }
 
 .slick-next:before, .slick-prev:before {
@@ -1130,7 +1136,7 @@ p.with-icons i {
 
 .shopping.cart .product-list .product-info a {
   margin-left: 10px;
-  color: #000;
+  color: #D291BC;
   font-weight: 600;
 }
 
@@ -1338,7 +1344,7 @@ p.with-icons i {
 .contact-form input:hover,
 .contact-form textarea:hover,
 .contact-form #contact-submit:hover {
-  border-color: #000;
+  border-color: #D291BC;
 }
 
 .contact-form #contact-submit {
@@ -1346,7 +1352,7 @@ p.with-icons i {
   padding: 15px 0;
   width: 100%;
   margin: 0;
-  background: #000;
+  background: #D291BC;
   color: #fff;
   border-radius: 0;
 }
@@ -1394,14 +1400,14 @@ p.with-icons i {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 1px solid #D291BC;
   text-align: center;
 }
 
 .social-icon ul li a:hover {
-  background: #000;
+  background: #D291BC;
   color: #fff;
-  border: 1px solid #000;
+  border: 1px solid #D291BC;
 }
 
 .social-icon ul li a:hover i {
@@ -1409,7 +1415,7 @@ p.with-icons i {
 }
 
 .social-icon ul li a i {
-  color: #000;
+  color: #D291BC;
   display: inline-block;
   font-size: 20px;
   line-height: 50px;
