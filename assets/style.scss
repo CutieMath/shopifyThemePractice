@@ -224,7 +224,7 @@ p.with-icons i {
 
 .top-header .contact-number {
   font-size: 12px;
-  color: #333;
+  color: #957DAD;
 }
 
 @media (max-width: 480px) {
@@ -254,7 +254,7 @@ p.with-icons i {
 }
 
 .top-header .top-menu > li > a {
-  color: #333;
+  color: #957DAD;
   font-size: 15px;
   padding: 0 8px;
 }
@@ -289,12 +289,17 @@ p.with-icons i {
 }
 
 .navbar-nav > li > a {
-  color: #333;
+  color: #957DAD;
   font-size: 14px;
   padding: 20px 15px;
   text-transform: uppercase;
   transition: .2s ease-in-out 0s;
   border: 1px solid transparent;
+}
+
+
+#navbarNav, .nav-item {
+  color: #957DAD;
 }
 
 /*=================================================================
@@ -391,7 +396,7 @@ p.with-icons i {
 
 .category-box .content h3 {
   margin: 0;
-  color: #333;
+  color: #957DAD;
   font-size: 20px;
   font-weight: 500;
 }
