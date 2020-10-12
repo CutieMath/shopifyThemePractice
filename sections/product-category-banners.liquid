@@ -1,0 +1,121 @@
+<section class="product-category">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title text-center">
+            <h2>Product Category</h2>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="category-box">
+            <a href="{{ section.settings.category_topleft_url }}">
+              <img src="{{ section.settings.category_topleft | img_url: '1920x' }}" alt="Picture of Violet">
+              <div class="content">
+                <h3>{{ section.settings.category_topleft_header }}</h3>
+                <p>{{ section.settings.category_topleft_text }}</p>
+              </div>
+            </a>  
+          </div>
+          <div class="category-box">
+            <a href="">
+              <img src="images/category-2.jpg" alt="">
+              <div class="content">
+                <h3>Smart Casuals</h3>
+                <p>Get Wide Range Selection</p>
+              </div>
+            </a>  
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="category-box category-box-2">
+            <a href="">
+              <img src="images/category-3.jpg" alt="">
+              <div class="content">
+                <h3>Jewellery</h3>
+                <p>Special Design Comes First</p>
+              </div>
+            </a>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% schema %}
+    {
+        "name": "Product Category Banners",
+        "settings": [
+            // first box
+            {
+                "type": "text",
+                "id": "category_topleft_header",
+                "default": "Yummy",
+                "label": "Category Top Left Header"
+            },
+            {
+                "type": "text",
+                "id": "category_topleft_text",
+                "default": "Get the Yummies of life",
+                "label": "Category Top Left Text"
+            },
+            {
+                "type": "image_picker",
+                "id": "category_topleft",
+                "label": "Category Top Left image"
+            },
+            {
+                "type": "url",
+                "id": "category_topleft_url",
+                "label": "Category Top Left Link"
+            },
+            // Second box
+            {
+                "type": "text",
+                "id": "category_topright_header",
+                "default": "Daily",
+                "label": "Category Top Right Header"
+            },
+            {
+                "type": "text",
+                "id": "category_topright_text",
+                "default": "Daily outfit? ",
+                "label": "Category Top Right Text"
+            },
+            {
+                "type": "image_picker",
+                "id": "category_topright",
+                "label": "Category Top Right Image"
+            },
+            {
+                "type": "url",
+                "id": "category_topright_url",
+                "label": "Category Top Right Link"
+            },
+            // Third box
+            {
+                "type": "text",
+                "id": "category_bottom_header",
+                "default": "All",
+                "label": "Category Bottom Header"
+            },
+            {
+                "type": "text",
+                "id": "category_bottom_text",
+                "default": "Daily outfit? ",
+                "label": "Category Top Bottom Text"
+            },
+            {
+                "type": "image_picker",
+                "id": "category_bottom",
+                "label": "Category Bottom Image"
+            },
+            {
+                "type": "url",
+                "id": "category_bottom_url",
+                "label": "Category Bottom Link"
+            }
+        ]
+    }
+  {% endschema %}
