@@ -1,0 +1,69 @@
+<section class="products section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title text-center">
+            <h2>Sweetest</h2>
+          </div>
+        </div>
+
+        {% assign collectionVariable = collections[section.settings.collection] %}
+
+        <div class="row">
+          {% for productVariable in collectionVariable.products limit: section.settings.product_limit %}
+            <div class="col-md-4">
+              <div class="product-item">
+                <div class="product-thumb">
+                {% if productVariable.compare_at_price and productVariable.compare_at_price != productVariable.price %}
+                  <span class="bage">Sale</span>
+                {% endif %}
+                  <img class="img-responsive rounded" src="{{ productVariable.featured_image.src | img_url: '1920x' }}" alt="product-img">
+                  <div class="preview-meta">
+                    <ul>
+                      <li>
+                        <a href="product-single.html"><i class="fa fa-search"></i></a>
+                      </li>
+                      <li>
+                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product-content">
+                  <h4><a href="{{ productVariable.url }}">{{ productVariable.title }}</a></h4>
+                  <p class="price">{{ productVariable.price | money }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% schema %}
+ {
+     "name": "Homepage products",
+     "settings": [
+        {
+            "type": "text", 
+            "id": "title", 
+            "label": "Heading", 
+            "default": "Sweetests"
+        },
+        {
+            "type": "collection", 
+            "id": "collection", 
+            "label": "Collection"
+        },
+        {
+            "type": "range", 
+            "id": "product_limit", 
+            "label": "Product Limit", 
+            "min": 3, 
+            "max": 9, 
+            "default": 6
+        }
+     ]
+ }
+{% endschema %}
